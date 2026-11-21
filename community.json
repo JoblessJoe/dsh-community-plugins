@@ -31,6 +31,7 @@
     "description": "类似 Claude Desktop 的 Projects：每个项目是一个独立空间，带目标、记忆、自定义指令（AGENTS.md）和知识文件。在项目里开启的每个对话都会自动加载这些内容，无需重复解释。记忆可在界面中增删改，智能体也会在工作中自动补充和修正。项目页面、侧边栏置顶、与 DSH 一致的「…」菜单（打开、新对话、编辑、置顶、归档、删除）、对话右侧的项目标签页，以及 8 个 projects_* 智能体工具。项目就是普通的 Markdown 文件夹，由 DSH 原生加载，不做提示词注入。零运行时依赖，中英双语。",
     "descriptionEn": "Claude-Desktop-style Projects: each project is a room with a goal, memory, custom instructions (AGENTS.md) and knowledge files. Every chat started in a project loads them automatically, so you never explain the project twice. You edit the memory in the UI, and agents add and fix entries as they work. Projects page, pinned projects in the sidebar, dsh-style \"…\" menus (open, new chat, edit, pin, archive, delete), a Project tab beside each chat, and 8 projects_* agent tools. Projects are plain markdown folders that dsh loads natively, with no prompt injection. Zero runtime dependencies, English and Chinese.",
     "repo": "https://github.com/JoblessJoe/deep-projects",
+    "npm": "deep-projects",
     "category": "knowledge",
     "subcategory": "memory"
   },
