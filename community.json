@@ -450,6 +450,18 @@
     "subcategory": "bridge"
   },
   {
+    "id": "dsh-connectors",
+    "name": "连接器",
+    "nameEn": "Connectors",
+    "author": "JoblessJoe",
+    "description": "像 Claude 一样的 MCP 连接器：侧边栏的「Connectors」页面（也在 设置 → Connectors）可添加任意 MCP 服务器——远程服务器（Streamable HTTP，自动回退 SSE）支持 OAuth 2.1 + PKCE 登录、令牌或自定义请求头，也可添加本地命令（stdio）。工具以 mcp__<id>__<tool> 出现在所有对话中，无需编辑 YAML，添加服务器无需重启。登录会回到你打开 DSH 的地址，服务器无界面部署时也能自动完成。令牌存放在 DSH 凭据存储中，重启后保留并自动刷新；断线自动重连；可逐个关闭工具；可导入 Claude Desktop / Cursor 的 mcpServers JSON。",
+    "descriptionEn": "Claude-style MCP connectors: a Connectors page in the sidebar (also Settings → Connectors) adds any MCP server — remote (Streamable HTTP with SSE fallback) with OAuth 2.1 + PKCE sign-in, a token or custom headers, or a local command over stdio. Tools appear in every chat as mcp__<id>__<tool>, no YAML and no restart per server. Sign-in returns to the address you opened DSH at, so it also finishes when DSH runs on a headless server. Tokens live in DSH's credential store, survive restarts and refresh on their own; dropped connections reconnect; single tools can be switched off; imports mcpServers JSON from Claude Desktop or Cursor.",
+    "repo": "https://github.com/JoblessJoe/dsh-connectors",
+    "npm": "dsh-connectors",
+    "category": "integration",
+    "subcategory": "bridge"
+  },
+  {
     "id": "dsh-context",
     "name": "上下文可视化",
     "nameEn": "Context Visualizer",
